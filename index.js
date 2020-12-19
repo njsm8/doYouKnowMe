@@ -11,10 +11,10 @@ function quiz(question, answer) {
   var answerGiven = readlineSync.question(question);
 
   if (answerGiven === answer) {
-    console.log("You are right! ");
+    console.log(" \n \t You are right! \n");
     score = score + 1;
   } else {
-    console.log("You are wrong! \n The correct answer is " + answer );
+    console.log("\t You are wrong! \n \n The correct answer is " + answer );
     score = score - 1;
   }
 }
